@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class InputOutput{
  public static void main(String [] args){
   Scanner scanner = new Scanner(System.in);
-
   String nama;
   int jumlalhSks;
   double IPK;
@@ -18,7 +17,7 @@ public class InputOutput{
   System.out.print("Masukan IPK Sementara :");
   IPK = scanner.nextDouble();
 
-  double jumlah = IPK = jumlahSks;
+  double jumlah = IPK * jumlahSks;
   System.out.print("Total Nilai = "+jumlah);
  }
 }
